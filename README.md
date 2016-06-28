@@ -1,2 +1,3 @@
-# CMSE_grad_handbook
+# CMSE Graduate Handbook
+
 CMSE graduate handbook
