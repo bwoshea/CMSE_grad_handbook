@@ -25,6 +25,15 @@
     urlcolor=blue
 }
 
+% comment out the following chunk of code to get rid of the "DRAFT"
+% watermark.  also see:
+% http://tex.stackexchange.com/questions/118939/add-watermark-that-overlays-the-images
+
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{4}
+\SetWatermarkLightness{0.85}
+
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\green}[1]{\textcolor{green}{#1}}
@@ -47,7 +56,7 @@ Michigan State University
 
 \author{CMSE faculty}
 
-\date{28 June 2016\footnote{Revision date}}
+\date{9 July 2016\footnote{Revision date}}
 
 \maketitle
 
