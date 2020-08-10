@@ -1,5 +1,9 @@
 handbook.out
 handbook.pdf
 handbook.toc
+handbook.aux
+handbook.log
 .DS_Store
+*~
+\#*\#
 
